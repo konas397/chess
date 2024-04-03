@@ -28,12 +28,9 @@ public class Main {
                         next_layer.add(nextCell);
                 }
             }
-            System.out.println("layer_number="+layer_number);
-            System.out.println("Size="+current_layer.size());
             for (Object o: current_layer)
             {
                 Cell c = (Cell) o;
-                System.out.println(o.hashCode());
             }
             previous_layer = current_layer;
             current_layer = next_layer;
