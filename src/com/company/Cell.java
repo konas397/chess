@@ -29,4 +29,9 @@ public class Cell {
         }
         return false;
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getX(), getY());
+    }
 }

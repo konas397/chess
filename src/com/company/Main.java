@@ -28,10 +28,6 @@ public class Main {
                         next_layer.add(nextCell);
                 }
             }
-            for (Object o: current_layer)
-            {
-                Cell c = (Cell) o;
-            }
             previous_layer = current_layer;
             current_layer = next_layer;
             layer_number++;
